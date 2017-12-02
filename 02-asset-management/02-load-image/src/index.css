@@ -1,0 +1,7 @@
+[class^=img] {
+  height: 321px;
+}
+
+.img-from-css {
+  background: url(./images/im.jpg) no-repeat;
+}
