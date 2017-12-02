@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'my-font';
+  src: url(./fonts/Zapfino.ttf);
+}
+
+h1 {
+  font-family: 'my-font';
+}
