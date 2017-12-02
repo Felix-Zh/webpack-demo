@@ -2,6 +2,14 @@ import caImg from './images/ca.jpg';
 import './index.css';
 
 
+function createImage(imgUrl) {
+  const img = new Image();
+
+  img.src = imgUrl;
+
+  return img;
+}
+
 const container = document.querySelector('.img-from-js');
 
-container.style.background = `url(${caImg}) no-repeat`;
+container.appendChild(createImage(caImg));
