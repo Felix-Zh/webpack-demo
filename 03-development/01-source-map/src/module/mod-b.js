@@ -1,4 +1,4 @@
 console.log('hello from mod-b');
 
-// but this will be an error
+// 下面这行将抛出异常
 throw new Error('surprise!');
