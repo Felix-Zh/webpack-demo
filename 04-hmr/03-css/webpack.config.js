@@ -24,12 +24,9 @@ const config = {
     hot: true
   },
   plugins: [
-
-    // 该插件用来在热更新时显示被更新的模块名
+    
+    // 之前提到的两个插件
     new webpack.NamedModulesPlugin(),
-
-    // 此处添加 HotModuleReplacementPlugin
-    // 注意该插件挂载在 webpack 上
     new webpack.HotModuleReplacementPlugin(),
 
     new HtmlWebpackPlugin({
