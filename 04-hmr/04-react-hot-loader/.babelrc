@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "@babel/react",
+    [
+      "@babel/env",
+      { "modules": false }
+    ]
+  ],
+  "plugins": [
+    "react-hot-loader/babel"
+  ]
+}
