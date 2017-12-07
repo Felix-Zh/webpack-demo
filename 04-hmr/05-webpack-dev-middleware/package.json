@@ -1,0 +1,22 @@
+{
+  "name": "05-webpack-dev-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-runtime": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
+    "koa-webpack": "^1.0.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "koa": "^2.4.1"
+  }
+}
