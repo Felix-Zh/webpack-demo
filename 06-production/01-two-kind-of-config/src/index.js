@@ -6,3 +6,5 @@ if (module.hot) {
 }
 
 foo();
+
+console.log(__BUILD_ENV__);
