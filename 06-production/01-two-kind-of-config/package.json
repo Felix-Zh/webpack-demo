@@ -5,7 +5,7 @@
   "main": "webpack.common.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.dev.js",
-    "build:qa": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
+    "build:qa": "cross-env NODE_ENV=production webpack --config webpack.dev.js",
     "build:prod": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
   "keywords": [],
