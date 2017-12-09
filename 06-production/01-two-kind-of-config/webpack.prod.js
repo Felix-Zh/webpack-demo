@@ -11,6 +11,7 @@ const commonConfig = require('./webpack.common');
 
 
 const config = {
+  devtool: 'source-map',
   plugins: [
     new UglifyJsPlugin()
   ]
