@@ -35,6 +35,6 @@ const config = {
 module.exports = config;
 
 // 注意 package.json 文件中 scripts 字段里的命令
-// NODE_ENV 设置的值为 development 或 production 而不是直接地 dev、qa 或 prod
+// NODE_ENV 设置的值为 development（其实 start 和 build:qa 命令的 NODE_ENV 均为 development，没有写是因为 NODE_ENV 的默认值就是 development） 或 production 而不是直接地 dev、qa 或 prod
 // 这是因为，development 和 production 是业界习惯，第三方库都应当按照这两个关键字来决定开发和生产时的不同逻辑
 // 而像 dev、qa、prod 甚至 yz 这样的构建环境，和各公司开发和部署策略有很大关系，因此没有使用 NODE_ENV 变量
