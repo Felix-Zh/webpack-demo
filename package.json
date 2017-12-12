@@ -21,5 +21,9 @@
     "jquery": "^3.2.1",
     "lodash": "^4.17.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0"
+  }
 }
